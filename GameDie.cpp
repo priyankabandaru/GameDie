@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include "GameDie.h"
 
 //class constructor that seeds the random number generator
 GameDie::GameDie()
@@ -11,5 +12,7 @@ GameDie::GameDie()
 void GameDie::roll()
 {
   srand(time(NULL));
+  int r=rand()%6+1;
+  printf("The random number geneated is:%d\n",&r);
   
 }
