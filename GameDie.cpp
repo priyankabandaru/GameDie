@@ -14,5 +14,4 @@ void GameDie::roll()
   srand(time(NULL));
   int r=rand()%6+1;
   printf("The random number geneated is:%d\n",&r);
-  
 }
