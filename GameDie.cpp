@@ -9,7 +9,7 @@ GameDie::GameDie()
 
 }
 
-//generate a random number between 1-6 (inclusive) and display it
+//generate a random number between 4-20 (inclusive) and display it
 void GameDie::roll()
 {
   srand(time(NULL));
@@ -19,6 +19,6 @@ void GameDie::roll()
 
 int main()
 {
-  GameDie gd;
-  gd.roll();
+ GameDie gd;
+ gd.roll();
 }
